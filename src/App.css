@@ -36,3 +36,134 @@
     transform: rotate(360deg);
   }
 }
+
+@media (min-width: 960px) {
+  .dashcards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .dashcards2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .dashcards3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .smallcards {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    width: 100%; 
+    max-width: 58%;
+  }
+  .profitcard {
+    width: 100%;
+    max-width: 40%;
+  }
+  .card {
+    width: 24%;
+    height: 130px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: rgb(31,32,41);
+  }
+  .activity {
+    width: 100%;
+    max-width: 58%;
+  }
+  .statuscard {
+    width: 100%;
+    max-width: 40%;
+  }
+  .recentorder {
+    width: 100%;
+    max-width: 58%;
+  }
+  .customer {
+    width: 100%;
+    max-width: 40%;
+  }
+}
+@media (min-width: 580px) and (max-width:959px) {
+  .smallcards {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    width: 100%; 
+  }
+  .profitcard {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .card {
+    width: 24%;
+    height: 130px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: rgb(31,32,41);
+  }
+  .activity {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .statuscard {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .recentorder {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .customer {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 579px){
+  .smallcards {
+    width: 100%; 
+  }
+  .profitcard {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .card {
+    height: 130px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: rgb(31,32,41);
+    margin-bottom: 15px;
+  }
+  .activity {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .statuscard {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .recentorder {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .customer {
+    width: 100%;
+    margin-top: 30px;
+  }
+} 
